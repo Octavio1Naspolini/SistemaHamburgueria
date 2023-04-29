@@ -1,0 +1,13 @@
+create table hamburgueria(
+    codigo integer,
+    nome varchar,
+    cpf varchar,
+    sexo varchar,
+    formaPagamento varchar,
+    item varchar,
+    preco real,
+    quantidade int,
+    totalPedido real
+);
+
+create sequence hamburgueria_seq start 1
